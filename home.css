@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("myfuture.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.main{
+	max-width: 1400px;
+	margin: auto;
+	font-family: arial
+	font-color: black;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	color: white;
+	font-size: 35px;
+	text-decoration: bold;
+}
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%, -50%);
+}
+.btn{
+	border: 1px solid white;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s; 
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+
+.headtentang{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%
+}
+.text{
+	color: white;
+	font-size: 15px;
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.h1tentang{
+	color: #9e9e9e;
+}
+.h2tentang{
+	font-size: 20px;
+	color: white;
+	margin-left: 0%
+}
+.gambartentang img{
+	width: 100px;
+	height: 140px;
+	margin-left: 25%;
+}
+.pendidikan{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	color: white;
+	font-family: century;
+	font-size: 130%;
+	transform: translate(-50%, -50%);
+}
+.table table{
+	margin-top: 5%;
+	margin-left: 30%;
+	color: white;
+	font-style: bold;
+}
+.h2jadwal{
+	font-size: 20px;
+	color: white;
+	margin-left: 42%;
+	font-style: bold;
+}
+.judul:nth-child(even){
+	background: limegreen
+}
+.table :nth-child(even){
+	background: #83c3e6
+}
+.pkontak{
+	color: white;
+	font-size: 15px;
+	left: 25%;
+}
+.card{
+	color: black;
+	width: 200px;
+	height: 240px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.3s;
+	position: absolute;
+}
+.card1{
+	background-image: url(fixbekgron.jpg);
+	top: 40%;
+	left:10%;
+	position: absolute;
+}
+.card2{
+	background-image: url(fixbekgron.jpg);
+	top: 40%;
+	left:30%;
+	position: absolute;
+}
+.card3{
+	background-image: url(fixbekgron.jpg);
+	top: 40%;
+	right: 30%;
+	position: absolute;
+}
+.card4{
+	background-image: url(fixbekgron.jpg);
+	top: 40%;
+	right:10%;
+	position: absolute;
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+.h2aktivitas{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
